@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px black;
+  padding: 0 20px;
+  align-items: center;
+}
+
+header button {
+  margin: 10px;
+  padding: 10px 40px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameboard {
+  margin-top: 64px;
+  display: flex;
+
+  width: 900px;
+  height: 900px;
+  padding: 0px;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: -1px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-text {
+  padding: 0;
+  margin: 0;
+  font-size: 80px;
+}
